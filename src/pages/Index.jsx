@@ -86,7 +86,7 @@ const Index = () => {
       <Heading as="h1" size="xl">
         Lindt Excellence Dashboard
       </Heading>
-      <Image src="https://images.unsplash.com/photo-1553452118-621e1f860f43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxMaW5kdCUyMEV4Y2VsbGVuY2UlMjBFeHRyYSUyMEZpbmUlMjBDcmVhbXklMjBDaG9jb2xhdGV8ZW58MHx8fHwxNzEwODY2Mzg1fDA&ixlib=rb-4.0.3&q=80&w=1080" />
+
       <StatGroup>
         {Object.keys(priceChange).map((store) => (
           <Stat key={store} p={4} borderWidth="1px" borderRadius="lg">
